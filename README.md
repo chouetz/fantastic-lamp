@@ -8,6 +8,7 @@
 # Review pull requests
 
 _Collaborate and work together on GitHub._
+Add a line for releasing
 
 <!--
   <<< Author notes: Start of the course >>>
@@ -84,7 +85,7 @@ Pull request reviews ensure quality and maintain momentum of changes to your pro
 
 #### When reviewing a pull request:
 
-1. Review the _title_ and _body_ of the pull request, and possibly any associated issue, to understand the intended change. 
+1. Review the _title_ and _body_ of the pull request, and possibly any associated issue, to understand the intended change.
 1. Review the [diff](https://docs.github.com/en/get-started/quickstart/github-glossary#diff), the comparison of the proposed code, in the context of the whole project.
 1. For most things, try out the proposed change. Check if the actual change matches the intention. Find the repository's [contributing guide](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) to find out how to review the changes.
 
