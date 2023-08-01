@@ -28,4 +28,4 @@ jobs:
       - name: Semantic release
         uses: brpaz/action-semantic-release@v1
         with:
-          branch: release/*
+          branch: release/1.1
