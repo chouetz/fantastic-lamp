@@ -1,0 +1,26 @@
+name: Semantic Release
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  test:
+    name: Run tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run test.py
+        run: python unittest discover s test
