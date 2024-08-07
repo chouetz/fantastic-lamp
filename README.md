@@ -9,6 +9,7 @@
 
 _Collaborate and work together on GitHub._
 Add a line for releasing
+Add another line
 
 <!--
   <<< Author notes: Start of the course >>>
