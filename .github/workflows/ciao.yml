@@ -1,0 +1,13 @@
+---
+name: Hello
+on:
+  pull_request:
+
+jobs:
+  say-hello:
+    name: Buongiorno a tutti
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - run: echo "Buongiorno a tutti"
